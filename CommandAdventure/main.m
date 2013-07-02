@@ -10,12 +10,10 @@
 
 int main(int argc, const char * argv[])
 {
-
-        int age = 0;
-        NSLog(@"How old are you?\n");
-        scanf("%d", &age);
-        NSLog(@"You are %d years old!", age);
-    
+    char name[100];
+    NSLog(@"What us your name?\n");
+    scanf("%s", name);
+    NSLog(@"Hello %s!\n", name);
     return 0;
 }
 
