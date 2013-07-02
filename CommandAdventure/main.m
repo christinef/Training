@@ -11,9 +11,19 @@
 int main(int argc, const char * argv[])
 {
     char name[100];
+    int age = 0;
+    int errors = 0;
     NSLog(@"What us your name?\n");
-    scanf("%s", name);
-    NSLog(@"Hello %s!\n", name);
+    scanf("%[^\n]s", name);
+    
+    while (errors == 0) {
+        NSLog(@"Great! How old are you?\n");
+        fpurge(stdin);
+        errors = scanf("%d", &age);
+        if (errors != 0) {
+            NSLog(@"Hello %s, age %d!\n", name, age);
+        }
+    }
     return 0;
 }
 
