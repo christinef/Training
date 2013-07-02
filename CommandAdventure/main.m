@@ -7,23 +7,27 @@
 //
 
 #import <Foundation/Foundation.h>
+int getUserName(char name[]);
+int getUserAge(int* age, char name[]);
 
 int main(int argc, const char * argv[])
 {
     char name[100];
+    name[0] = '\0';
     int age = 0;
-    int errors = 0;
     NSLog(@"What us your name?\n");
-    scanf("%[^\n]s", name);
-    
-    while (errors == 0) {
-        NSLog(@"Great! How old are you?\n");
-        fpurge(stdin);
-        errors = scanf("%d", &age);
-        if (errors != 0) {
-            NSLog(@"Hello %s, age %d!\n", name, age);
-        }
-    }
-    return 0;
+    getUserName(name);
+    getUserAge(&age, name);
+                NSLog(@"Hello %s, age %d!\n", name, age);
+        return 0;
 }
 
+int getUserName(char name[]){
+    return scanf("%[^\n]s", name);
+}
+
+int getUserAge(int* age, char name[]){
+        NSLog(@"Great %s! How old are you?\n", name);
+        fpurge(stdin); //purge the buffer
+        return scanf("%d", age);
+}
