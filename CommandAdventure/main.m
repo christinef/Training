@@ -11,12 +11,11 @@
 int main(int argc, const char * argv[])
 {
 
-    @autoreleasepool {
-        
-        // insert code here...
-        NSLog(@"Hello, World!");
-        
-    }
+        int age = 0;
+        NSLog(@"How old are you?\n");
+        scanf("%d", &age);
+        NSLog(@"You are %d years old!", age);
+    
     return 0;
 }
 
