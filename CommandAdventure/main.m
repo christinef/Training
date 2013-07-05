@@ -35,6 +35,8 @@ int main(int argc, const char * argv[])
     [portfolio addStockShares:110 initialPrice:50.25 currentPrice:50.50];
     [portfolio addExistingStockShares:stockmarket];
     printf("Portfolio Value: %.2lf", [portfolio getPortfolioValue]);
+    
+//    Example* example = [[Example alloc] init];
 
 /*     NSString* foo =@"apples\ngrapes\ntomatoes\nmilk";
      NSArray* names = [foo componentsSeparatedByString:@"\n"];

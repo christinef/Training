@@ -11,6 +11,7 @@
 		A6C061331784D32100408707 /* Person.m in Sources */ = {isa = PBXBuildFile; fileRef = A6C061321784D32100408707 /* Person.m */; };
 		A6C061361784D8AA00408707 /* StockHolding.m in Sources */ = {isa = PBXBuildFile; fileRef = A6C061351784D8AA00408707 /* StockHolding.m */; };
 		A6C061391784EB3A00408707 /* Portfolio.m in Sources */ = {isa = PBXBuildFile; fileRef = A6C061381784EB3A00408707 /* Portfolio.m */; };
+		A6C0613C1787357800408707 /* Example.m in Sources */ = {isa = PBXBuildFile; fileRef = A6C0613B1787357800408707 /* Example.m */; };
 		A6E695DE1783824200865B89 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A6E695DD1783824200865B89 /* Foundation.framework */; };
 		A6E695E11783824200865B89 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = A6E695E01783824200865B89 /* main.m */; };
 		A6E695E51783824200865B89 /* CommandAdventure.1 in CopyFiles */ = {isa = PBXBuildFile; fileRef = A6E695E41783824200865B89 /* CommandAdventure.1 */; };
@@ -38,6 +39,8 @@
 		A6C061351784D8AA00408707 /* StockHolding.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = StockHolding.m; sourceTree = "<group>"; };
 		A6C061371784EB3A00408707 /* Portfolio.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Portfolio.h; sourceTree = "<group>"; };
 		A6C061381784EB3A00408707 /* Portfolio.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Portfolio.m; sourceTree = "<group>"; };
+		A6C0613A1787357800408707 /* Example.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Example.h; sourceTree = "<group>"; };
+		A6C0613B1787357800408707 /* Example.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Example.m; sourceTree = "<group>"; };
 		A6E695DA1783824200865B89 /* CommandAdventure */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = CommandAdventure; sourceTree = BUILT_PRODUCTS_DIR; };
 		A6E695DD1783824200865B89 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		A6E695E01783824200865B89 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
@@ -66,6 +69,8 @@
 				A6C061321784D32100408707 /* Person.m */,
 				A6C061371784EB3A00408707 /* Portfolio.h */,
 				A6C061381784EB3A00408707 /* Portfolio.m */,
+				A6C0613A1787357800408707 /* Example.h */,
+				A6C0613B1787357800408707 /* Example.m */,
 				A6C061341784D8AA00408707 /* StockHolding.h */,
 				A6C061351784D8AA00408707 /* StockHolding.m */,
 				A6E695DF1783824200865B89 /* CommandAdventure */,
@@ -164,6 +169,7 @@
 				A6C061331784D32100408707 /* Person.m in Sources */,
 				A6C061361784D8AA00408707 /* StockHolding.m in Sources */,
 				A6C061391784EB3A00408707 /* Portfolio.m in Sources */,
+				A6C0613C1787357800408707 /* Example.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
