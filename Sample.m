@@ -6,11 +6,16 @@
 //  Copyright (c) 2013 Christine Franks. All rights reserved.
 //
 
-#import "Example.h"
+#import "Sample.h"
 
-@implementation Example
+@implementation Sample
 -(id) init
 {
+    self = [super init];
+    return [self initSpecial:nil];
+}
+
+-(id)initSpecial:(id)starter{
     self = [super init];
     if(self) {
         _number =@3;
@@ -20,4 +25,10 @@
     }
     return self;
 }
+
+-(void)switcher:(int)num{
+    [self setNumber:@3];
+    NSLog(@"%@", [self number]);
+}
+
 @end

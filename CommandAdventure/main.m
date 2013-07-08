@@ -11,13 +11,19 @@
 #import "Person.h"
 #import "StockHolding.h"
 #import "Portfolio.h"
+#import "Sample.h"
+#import "NSString+Vowels.h"
 
 int getUserName(char name[]);
 int getUserAge(int* age, char name[]);
 
 int main(int argc, const char * argv[])
 {
-    Person* girl = [[Person alloc] init];
+    NSString* string = @"Hello, World!";
+    NSLog(@"%@ has %d vowels.\n", string, [string vowelCount]);
+    
+    
+/*    Person* girl = [[Person alloc] init];
      [girl setHeight:5.7];
      [girl setWeight:100];
      float girlBMI = [girl bmiCalculator];
@@ -34,11 +40,12 @@ int main(int argc, const char * argv[])
     Portfolio* portfolio = [[Portfolio alloc] init];
     [portfolio addStockShares:110 initialPrice:50.25 currentPrice:50.50];
     [portfolio addExistingStockShares:stockmarket];
-    printf("Portfolio Value: %.2lf", [portfolio getPortfolioValue]);
+    printf("Portfolio Value: %.2lf\n", [portfolio getPortfolioValue]);
     
-//    Example* example = [[Example alloc] init];
-
-/*     NSString* foo =@"apples\ngrapes\ntomatoes\nmilk";
+    Sample* example = [[Sample alloc] initSpecial:@5];
+    [example switcher:2];
+    
+     NSString* foo =@"apples\ngrapes\ntomatoes\nmilk";
      NSArray* names = [foo componentsSeparatedByString:@"\n"];
      //NSLog(@"%@", [names objectAtIndex:1]);
      for (NSString* name in names){
@@ -91,7 +98,6 @@ int main(int argc, const char * argv[])
      else
      NSLog(@"entered right");
      */
-    sleep(10);
     return 0;
 }
 

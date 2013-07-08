@@ -8,8 +8,10 @@
 
 #import <Foundation/Foundation.h>
 
-@interface Example : NSObject
+@interface Sample : NSObject
 
+-(id)initSpecial:(id)starter;
+-(void)switcher:(int)num;
 @property (strong, nonatomic) NSNumber* number;
 
 @end
