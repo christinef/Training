@@ -7,7 +7,6 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		A607689B17848E630055640F /* ABCCharacter.m in Sources */ = {isa = PBXBuildFile; fileRef = A607689A17848E630055640F /* ABCCharacter.m */; };
 		A6C061331784D32100408707 /* Person.m in Sources */ = {isa = PBXBuildFile; fileRef = A6C061321784D32100408707 /* Person.m */; };
 		A6C061361784D8AA00408707 /* StockHolding.m in Sources */ = {isa = PBXBuildFile; fileRef = A6C061351784D8AA00408707 /* StockHolding.m */; };
 		A6C061391784EB3A00408707 /* Portfolio.m in Sources */ = {isa = PBXBuildFile; fileRef = A6C061381784EB3A00408707 /* Portfolio.m */; };
@@ -15,8 +14,9 @@
 		A6E695DE1783824200865B89 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A6E695DD1783824200865B89 /* Foundation.framework */; };
 		A6E695E11783824200865B89 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = A6E695E01783824200865B89 /* main.m */; };
 		A6E695E51783824200865B89 /* CommandAdventure.1 in CopyFiles */ = {isa = PBXBuildFile; fileRef = A6E695E41783824200865B89 /* CommandAdventure.1 */; };
-		A6E82BBD178B246F0001410F /* NSString+Vowels.m in Sources */ = {isa = PBXBuildFile; fileRef = A6E82BBC178B246F0001410F /* NSString+Vowels.m */; };
 		A6E82BD0178B2D5F0001410F /* VowelMover.m in Sources */ = {isa = PBXBuildFile; fileRef = A6E82BCF178B2D5F0001410F /* VowelMover.m */; };
+		A6F17761178CC5E800FA86DF /* ABCCharacter.m in Sources */ = {isa = PBXBuildFile; fileRef = A6F17760178CC5E800FA86DF /* ABCCharacter.m */; };
+		A6F17764178CC66500FA86DF /* NSString+Vowels.m in Sources */ = {isa = PBXBuildFile; fileRef = A6F17763178CC66500FA86DF /* NSString+Vowels.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -33,8 +33,6 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
-		A607689917848E630055640F /* ABCCharacter.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = ABCCharacter.h; path = ../ABCCharacter.h; sourceTree = "<group>"; };
-		A607689A17848E630055640F /* ABCCharacter.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = ABCCharacter.m; path = ../ABCCharacter.m; sourceTree = "<group>"; };
 		A6C061311784D32100408707 /* Person.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Person.h; sourceTree = "<group>"; };
 		A6C061321784D32100408707 /* Person.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Person.m; sourceTree = "<group>"; };
 		A6C061341784D8AA00408707 /* StockHolding.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = StockHolding.h; path = ../StockHolding.h; sourceTree = "<group>"; };
@@ -48,10 +46,12 @@
 		A6E695E01783824200865B89 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		A6E695E31783824200865B89 /* CommandAdventure-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "CommandAdventure-Prefix.pch"; sourceTree = "<group>"; };
 		A6E695E41783824200865B89 /* CommandAdventure.1 */ = {isa = PBXFileReference; lastKnownFileType = text.man; path = CommandAdventure.1; sourceTree = "<group>"; };
-		A6E82BBB178B246F0001410F /* NSString+Vowels.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = "NSString+Vowels.h"; path = "../NSString+Vowels.h"; sourceTree = "<group>"; };
-		A6E82BBC178B246F0001410F /* NSString+Vowels.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = "NSString+Vowels.m"; path = "../NSString+Vowels.m"; sourceTree = "<group>"; };
 		A6E82BCE178B2D5E0001410F /* VowelMover.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = VowelMover.h; sourceTree = "<group>"; };
 		A6E82BCF178B2D5F0001410F /* VowelMover.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = VowelMover.m; sourceTree = "<group>"; };
+		A6F1775F178CC5E800FA86DF /* ABCCharacter.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ABCCharacter.h; sourceTree = "<group>"; };
+		A6F17760178CC5E800FA86DF /* ABCCharacter.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ABCCharacter.m; sourceTree = "<group>"; };
+		A6F17762178CC66500FA86DF /* NSString+Vowels.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSString+Vowels.h"; sourceTree = "<group>"; };
+		A6F17763178CC66500FA86DF /* NSString+Vowels.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSString+Vowels.m"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -94,10 +94,10 @@
 		A6E695DF1783824200865B89 /* CommandAdventure */ = {
 			isa = PBXGroup;
 			children = (
-				A6E82BBB178B246F0001410F /* NSString+Vowels.h */,
-				A6E82BBC178B246F0001410F /* NSString+Vowels.m */,
-				A607689917848E630055640F /* ABCCharacter.h */,
-				A607689A17848E630055640F /* ABCCharacter.m */,
+				A6F17762178CC66500FA86DF /* NSString+Vowels.h */,
+				A6F17763178CC66500FA86DF /* NSString+Vowels.m */,
+				A6F1775F178CC5E800FA86DF /* ABCCharacter.h */,
+				A6F17760178CC5E800FA86DF /* ABCCharacter.m */,
 				A6C061311784D32100408707 /* Person.h */,
 				A6C061321784D32100408707 /* Person.m */,
 				A6C061371784EB3A00408707 /* Portfolio.h */,
@@ -175,13 +175,13 @@
 			buildActionMask = 2147483647;
 			files = (
 				A6E695E11783824200865B89 /* main.m in Sources */,
-				A607689B17848E630055640F /* ABCCharacter.m in Sources */,
 				A6C061331784D32100408707 /* Person.m in Sources */,
 				A6C061361784D8AA00408707 /* StockHolding.m in Sources */,
 				A6C061391784EB3A00408707 /* Portfolio.m in Sources */,
 				A6C0613C1787357800408707 /* Sample.m in Sources */,
-				A6E82BBD178B246F0001410F /* NSString+Vowels.m in Sources */,
 				A6E82BD0178B2D5F0001410F /* VowelMover.m in Sources */,
+				A6F17761178CC5E800FA86DF /* ABCCharacter.m in Sources */,
+				A6F17764178CC66500FA86DF /* NSString+Vowels.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
