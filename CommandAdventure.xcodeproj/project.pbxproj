@@ -15,8 +15,9 @@
 		A6E695DE1783824200865B89 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A6E695DD1783824200865B89 /* Foundation.framework */; };
 		A6E695E11783824200865B89 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = A6E695E01783824200865B89 /* main.m */; };
 		A6E695E51783824200865B89 /* CommandAdventure.1 in CopyFiles */ = {isa = PBXBuildFile; fileRef = A6E695E41783824200865B89 /* CommandAdventure.1 */; };
-		A6E82BA7178B20040001410F /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A6E695DD1783824200865B89 /* Foundation.framework */; };
 		A6E82BBD178B246F0001410F /* NSString+Vowels.m in Sources */ = {isa = PBXBuildFile; fileRef = A6E82BBC178B246F0001410F /* NSString+Vowels.m */; };
+		A6E82BC3178B2CF20001410F /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A6E695DD1783824200865B89 /* Foundation.framework */; };
+		A6E82BD0178B2D5F0001410F /* VowelMover.m in Sources */ = {isa = PBXBuildFile; fileRef = A6E82BCF178B2D5F0001410F /* VowelMover.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -30,7 +31,7 @@
 			);
 			runOnlyForDeploymentPostprocessing = 1;
 		};
-		A6E82BA4178B20040001410F /* CopyFiles */ = {
+		A6E82BC0178B2CF20001410F /* CopyFiles */ = {
 			isa = PBXCopyFilesBuildPhase;
 			buildActionMask = 2147483647;
 			dstPath = /usr/share/man/man1/;
@@ -42,24 +43,26 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
-		A607689917848E630055640F /* ABCCharacter.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ABCCharacter.h; sourceTree = "<group>"; };
-		A607689A17848E630055640F /* ABCCharacter.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ABCCharacter.m; sourceTree = "<group>"; };
-		A6C061311784D32100408707 /* Person.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = Person.h; path = CommandAdventure/Person.h; sourceTree = "<group>"; };
-		A6C061321784D32100408707 /* Person.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = Person.m; path = CommandAdventure/Person.m; sourceTree = "<group>"; };
-		A6C061341784D8AA00408707 /* StockHolding.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = StockHolding.h; sourceTree = "<group>"; };
-		A6C061351784D8AA00408707 /* StockHolding.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = StockHolding.m; sourceTree = "<group>"; };
-		A6C061371784EB3A00408707 /* Portfolio.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Portfolio.h; sourceTree = "<group>"; };
-		A6C061381784EB3A00408707 /* Portfolio.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Portfolio.m; sourceTree = "<group>"; };
-		A6C0613A1787357800408707 /* Sample.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Sample.h; sourceTree = "<group>"; };
-		A6C0613B1787357800408707 /* Sample.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Sample.m; sourceTree = "<group>"; };
+		A607689917848E630055640F /* ABCCharacter.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = ABCCharacter.h; path = ../ABCCharacter.h; sourceTree = "<group>"; };
+		A607689A17848E630055640F /* ABCCharacter.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = ABCCharacter.m; path = ../ABCCharacter.m; sourceTree = "<group>"; };
+		A6C061311784D32100408707 /* Person.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Person.h; sourceTree = "<group>"; };
+		A6C061321784D32100408707 /* Person.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Person.m; sourceTree = "<group>"; };
+		A6C061341784D8AA00408707 /* StockHolding.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = StockHolding.h; path = ../StockHolding.h; sourceTree = "<group>"; };
+		A6C061351784D8AA00408707 /* StockHolding.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = StockHolding.m; path = ../StockHolding.m; sourceTree = "<group>"; };
+		A6C061371784EB3A00408707 /* Portfolio.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = Portfolio.h; path = ../Portfolio.h; sourceTree = "<group>"; };
+		A6C061381784EB3A00408707 /* Portfolio.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = Portfolio.m; path = ../Portfolio.m; sourceTree = "<group>"; };
+		A6C0613A1787357800408707 /* Sample.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = Sample.h; path = ../Sample.h; sourceTree = "<group>"; };
+		A6C0613B1787357800408707 /* Sample.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = Sample.m; path = ../Sample.m; sourceTree = "<group>"; };
 		A6E695DA1783824200865B89 /* CommandAdventure */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = CommandAdventure; sourceTree = BUILT_PRODUCTS_DIR; };
 		A6E695DD1783824200865B89 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		A6E695E01783824200865B89 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		A6E695E31783824200865B89 /* CommandAdventure-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "CommandAdventure-Prefix.pch"; sourceTree = "<group>"; };
 		A6E695E41783824200865B89 /* CommandAdventure.1 */ = {isa = PBXFileReference; lastKnownFileType = text.man; path = CommandAdventure.1; sourceTree = "<group>"; };
-		A6E82BA6178B20040001410F /* VowelCounter */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = VowelCounter; sourceTree = BUILT_PRODUCTS_DIR; };
-		A6E82BBB178B246F0001410F /* NSString+Vowels.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSString+Vowels.h"; sourceTree = "<group>"; };
-		A6E82BBC178B246F0001410F /* NSString+Vowels.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSString+Vowels.m"; sourceTree = "<group>"; };
+		A6E82BBB178B246F0001410F /* NSString+Vowels.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = "NSString+Vowels.h"; path = "../NSString+Vowels.h"; sourceTree = "<group>"; };
+		A6E82BBC178B246F0001410F /* NSString+Vowels.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = "NSString+Vowels.m"; path = "../NSString+Vowels.m"; sourceTree = "<group>"; };
+		A6E82BC2178B2CF20001410F /* VowelMover */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = VowelMover; sourceTree = BUILT_PRODUCTS_DIR; };
+		A6E82BCE178B2D5E0001410F /* VowelMover.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = VowelMover.h; sourceTree = "<group>"; };
+		A6E82BCF178B2D5F0001410F /* VowelMover.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = VowelMover.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -71,11 +74,11 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		A6E82BA3178B20040001410F /* Frameworks */ = {
+		A6E82BBF178B2CF20001410F /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				A6E82BA7178B20040001410F /* Foundation.framework in Frameworks */,
+				A6E82BC3178B2CF20001410F /* Foundation.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -85,18 +88,6 @@
 		A6E695D11783824200865B89 = {
 			isa = PBXGroup;
 			children = (
-				A6E82BBB178B246F0001410F /* NSString+Vowels.h */,
-				A6E82BBC178B246F0001410F /* NSString+Vowels.m */,
-				A607689917848E630055640F /* ABCCharacter.h */,
-				A607689A17848E630055640F /* ABCCharacter.m */,
-				A6C061311784D32100408707 /* Person.h */,
-				A6C061321784D32100408707 /* Person.m */,
-				A6C061371784EB3A00408707 /* Portfolio.h */,
-				A6C061381784EB3A00408707 /* Portfolio.m */,
-				A6C0613A1787357800408707 /* Sample.h */,
-				A6C0613B1787357800408707 /* Sample.m */,
-				A6C061341784D8AA00408707 /* StockHolding.h */,
-				A6C061351784D8AA00408707 /* StockHolding.m */,
 				A6E695DF1783824200865B89 /* CommandAdventure */,
 				A6E695DC1783824200865B89 /* Frameworks */,
 				A6E695DB1783824200865B89 /* Products */,
@@ -107,7 +98,7 @@
 			isa = PBXGroup;
 			children = (
 				A6E695DA1783824200865B89 /* CommandAdventure */,
-				A6E82BA6178B20040001410F /* VowelCounter */,
+				A6E82BC2178B2CF20001410F /* VowelMover */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -123,6 +114,20 @@
 		A6E695DF1783824200865B89 /* CommandAdventure */ = {
 			isa = PBXGroup;
 			children = (
+				A6E82BBB178B246F0001410F /* NSString+Vowels.h */,
+				A6E82BBC178B246F0001410F /* NSString+Vowels.m */,
+				A607689917848E630055640F /* ABCCharacter.h */,
+				A607689A17848E630055640F /* ABCCharacter.m */,
+				A6C061311784D32100408707 /* Person.h */,
+				A6C061321784D32100408707 /* Person.m */,
+				A6C061371784EB3A00408707 /* Portfolio.h */,
+				A6C061381784EB3A00408707 /* Portfolio.m */,
+				A6C0613A1787357800408707 /* Sample.h */,
+				A6C0613B1787357800408707 /* Sample.m */,
+				A6C061341784D8AA00408707 /* StockHolding.h */,
+				A6C061351784D8AA00408707 /* StockHolding.m */,
+				A6E82BCE178B2D5E0001410F /* VowelMover.h */,
+				A6E82BCF178B2D5F0001410F /* VowelMover.m */,
 				A6E695E01783824200865B89 /* main.m */,
 				A6E695E41783824200865B89 /* CommandAdventure.1 */,
 				A6E695E21783824200865B89 /* Supporting Files */,
@@ -158,21 +163,21 @@
 			productReference = A6E695DA1783824200865B89 /* CommandAdventure */;
 			productType = "com.apple.product-type.tool";
 		};
-		A6E82BA5178B20040001410F /* VowelCounter */ = {
+		A6E82BC1178B2CF20001410F /* VowelMover */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = A6E82BB1178B20040001410F /* Build configuration list for PBXNativeTarget "VowelCounter" */;
+			buildConfigurationList = A6E82BCB178B2CF20001410F /* Build configuration list for PBXNativeTarget "VowelMover" */;
 			buildPhases = (
-				A6E82BA2178B20040001410F /* Sources */,
-				A6E82BA3178B20040001410F /* Frameworks */,
-				A6E82BA4178B20040001410F /* CopyFiles */,
+				A6E82BBE178B2CF20001410F /* Sources */,
+				A6E82BBF178B2CF20001410F /* Frameworks */,
+				A6E82BC0178B2CF20001410F /* CopyFiles */,
 			);
 			buildRules = (
 			);
 			dependencies = (
 			);
-			name = VowelCounter;
-			productName = VowelCounter;
-			productReference = A6E82BA6178B20040001410F /* VowelCounter */;
+			name = VowelMover;
+			productName = VowelMover;
+			productReference = A6E82BC2178B2CF20001410F /* VowelMover */;
 			productType = "com.apple.product-type.tool";
 		};
 /* End PBXNativeTarget section */
@@ -197,7 +202,7 @@
 			projectRoot = "";
 			targets = (
 				A6E695D91783824200865B89 /* CommandAdventure */,
-				A6E82BA5178B20040001410F /* VowelCounter */,
+				A6E82BC1178B2CF20001410F /* VowelMover */,
 			);
 		};
 /* End PBXProject section */
@@ -214,10 +219,11 @@
 				A6C061391784EB3A00408707 /* Portfolio.m in Sources */,
 				A6C0613C1787357800408707 /* Sample.m in Sources */,
 				A6E82BBD178B246F0001410F /* NSString+Vowels.m in Sources */,
+				A6E82BD0178B2D5F0001410F /* VowelMover.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		A6E82BA2178B20040001410F /* Sources */ = {
+		A6E82BBE178B2CF20001410F /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -304,20 +310,20 @@
 			};
 			name = Release;
 		};
-		A6E82BAF178B20040001410F /* Debug */ = {
+		A6E82BCC178B2CF20001410F /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
-				GCC_PREFIX_HEADER = "VowelCounter/VowelCounter-Prefix.pch";
+				GCC_PREFIX_HEADER = "VowelMover/VowelMover-Prefix.pch";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
 			name = Debug;
 		};
-		A6E82BB0178B20040001410F /* Release */ = {
+		A6E82BCD178B2CF20001410F /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
-				GCC_PREFIX_HEADER = "VowelCounter/VowelCounter-Prefix.pch";
+				GCC_PREFIX_HEADER = "VowelMover/VowelMover-Prefix.pch";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
 			name = Release;
@@ -343,13 +349,14 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		A6E82BB1178B20040001410F /* Build configuration list for PBXNativeTarget "VowelCounter" */ = {
+		A6E82BCB178B2CF20001410F /* Build configuration list for PBXNativeTarget "VowelMover" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				A6E82BAF178B20040001410F /* Debug */,
-				A6E82BB0178B20040001410F /* Release */,
+				A6E82BCC178B2CF20001410F /* Debug */,
+				A6E82BCD178B2CF20001410F /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
